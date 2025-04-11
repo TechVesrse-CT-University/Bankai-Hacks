@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+  flex-direction: row;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  transition: all 0.3s ease;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #2c3e50;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1e272e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  transition: width 0.3s ease;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar h2 img {
+  margin-left: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 15px;
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #485460;
+}
+
+/* Mobile first approach */
+
+/* Phones */
+@media (max-width: 600px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 10px;
+    justify-content: space-around;
+  }
+
+  .sidebar h2 {
+    display: none; /* Hide the title on small screens */
+  }
+
+  .sidebar a {
+    margin-bottom: 0;
+    padding: 8px 12px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .sidebar {
+    width: 180px;
+    padding: 15px;
+  }
+
+  .sidebar h2 {
+    font-size: 18px;
+  }
+  nav{
+    flex-direction: row;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  .main-content {
+    padding: 15px;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+  .sidebar {
+    width: 250px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+}
+
+
+
+
+
+

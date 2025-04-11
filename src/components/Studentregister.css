@@ -1,0 +1,52 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #450957, #1a0131);
+  color: white;
+  font-family: 'Arial', sans-serif;
+  animation: waterFlow 15s ease infinite;
+}
+
+@keyframes waterFlow 
+{
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .register-form input,
+  .register-form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register-form button {
+    padding: 0.7rem 1rem;
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+  }
+

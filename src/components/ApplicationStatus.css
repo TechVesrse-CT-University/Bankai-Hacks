@@ -1,0 +1,52 @@
+/* ApplicationStatus.css */
+
+.application-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .application-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .status-submitted {
+    background-color: #cfe2ff;
+    color: #084298;
+  }
+  
+  .status-review {
+    background-color: #fff3cd;
+    color: #664d03;
+  }
+  
+  .status-approved {
+    background-color: #d1e7dd;
+    color: #0f5132;
+  }
+  
+  .status-rejected {
+    background-color: #f8d7da;
+    color: #842029;
+  }
+  
+  .status-default {
+    background-color: #e2e3e5;
+    color: #41464b;
+  }
+  
