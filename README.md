@@ -1,12 +1,45 @@
-# React + Vite
+# 📚 Exam Revaluation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web platform built with **React**, **Node.js**, and **MongoDB** to modernize the exam revaluation process. This hackathon project enables students to request revaluations, get mentor notifications, and track their application status live.
 
-Currently, two official plugins are available:
+## 📝 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Exam Revaluation System provides a digital solution for educational institutions to handle exam paper revaluation requests. It enhances transparency, saves time, and ensures all stakeholders are updated in real-time.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### 👨‍🎓 Student Interface
+- Submit revaluation applications
+- View and track live application status
+- Receive notifications from mentors
+- Responsive React UI
+
+### 👩‍🏫 Admin Dashboard
+- Manage all student applications
+- Update application status in real time
+- View summary reports
+
+### 🧑‍🏫 Mentor Notifications
+- Mentors can view assigned requests
+- Provide comments or feedback
+- Notify students directly
+
+### 🔄 Live Tracker
+- Application stages:
+  `Submitted → Under Review → Evaluated → Result Updated`
+- Real-time UI updates for each stage
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology             |
+|--------------|------------------------|
+| Frontend     | React                  |
+| Backend      | Node.js, Express       |
+| Database     | MongoDB + Mongoose     |
+| State Mgmt   | React Hooks            |
+
+
