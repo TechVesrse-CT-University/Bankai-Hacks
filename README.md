@@ -1,4 +1,4 @@
-# 📚 Exam Revaluation System
+# 📚 Exam Revaluation/Grieviance System
 
 A full-stack web platform built with **React**, **Node.js**, and **MongoDB** to modernize the exam revaluation process. This hackathon project enables students to request revaluations, get mentor notifications, and track their application status live.
 
